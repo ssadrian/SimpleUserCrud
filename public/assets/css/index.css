@@ -1,0 +1,18 @@
+:root {
+  --bg-color: #121212;
+  --fg-color: #f8f8f2;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+}
+
+* {
+  color: var(--fg-color) !important;
+}
+
+input,
+button {
+  color: var(--bg-color) !important;
+}
